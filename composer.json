@@ -1,0 +1,29 @@
+{
+    "name": "goroms/coublike",
+    "description": "Couber like",
+    "keywords": ["yii2", "framework", "basic", "coublike"],
+    "homepage": "http://example.com",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=7.2",
+        "ext-json": "*",
+        "yidas/yii2-bower-asset": "~2.0",
+        "yiisoft/yii2": "^2.0",
+        "yiisoft/yii2-bootstrap": "^2.0",
+        "linslin/yii2-curl": "^1.2",
+        "dektrium/yii2-user": "^0.9",
+        "psr/log": "^1.1"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*",
+        "yiisoft/yii2-faker": "*"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "archive": {
+        "exclude": ["/.git/"]
+    }
+}
